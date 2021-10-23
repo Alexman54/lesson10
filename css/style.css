@@ -1,0 +1,148 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	font-family: "Roboto", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 100px 0 0 0;
+}
+/* ------------------------------ */
+
+.dog {
+	background: #29C3BE url("../img/dog_fon.png") 80% 0 no-repeat;
+	padding: 112px 0 212px 0;
+}
+.dog__body {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.dog__impact{
+	margin: 0 105px 70px 0;
+}
+
+.impact {
+	display: inline-block;
+	font-size: 0;
+}
+.impact__img {
+	margin: 0 5px 0 0;
+}
+.impact__title {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	min-height: 27px;
+	line-height: 27px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0 0 25px 0;
+}
+.impact__sub-title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	max-width: 411px;
+}
+.dog__image {
+	vertical-align: top;
+	display: inline-block;
+	margin-top: -192px;
+}
+.dog__img {
+	border-radius: 40px;
+}
+.dog__rows {
+	max-width: 1020px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.dog__row {
+	display: inline-block;
+}
+
+.dog__row:not(:last-child){
+	margin-right: 24px;
+}
+.column {
+	display: inline-block;
+	width: 237px;
+	font-size: 0;
+}
+.column__icon {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 11px;
+}
+.column__image {
+	display: inline-block;
+}
+.column__content {
+	display: inline-block;
+	min-height: 76px;
+	overflow: hidden;
+}
+.column__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 50px;
+	color: #FFFFFF;
+	margin-bottom: 3px;
+	max-width: 110px;
+}
+.column__text {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+	max-width: 110px;
+}
